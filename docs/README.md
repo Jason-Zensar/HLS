@@ -12,6 +12,6 @@ All documents are formal, black-and-white and written mainly as bullet points.
 | `03_Pipeline_Explanation.pdf` | CTPIP-PE-001 v1.1 | Ingestion, query and local AI pipelines (RAG, research agent, explainability check) with real examples and timings |
 | `04_Module_Architecture.pptx` | - | Slides (17): modules and how they fit together, including the local AI module |
 | `05_Pipeline.pptx` | - | Slides (21): ingestion, query and local AI pipelines |
-| `CTPIP_Demo_Video.mp4` | - | About 4 minutes, silent screen recording of the earlier version of the interface (before the AI assistant and the simplified menu) |
+| `CTPIP_Demo_Video.mp4` | - | About 4 minutes 20 seconds, silent screen recording with captions: dashboard, uploading a protocol, plain-language overview, AI explanation with citations and the explainability check, protocol Q&A, Ask AI research agent, search and text search with AI, compare with AI, settings |
 | `images/` | - | Screenshots of the current interface (used by the README) |
 | `demo/Sample_Protocol_SAMPLE-PEMBRO-001.pdf` | - | Made-up protocol for practice uploads |

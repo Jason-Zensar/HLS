@@ -22,6 +22,9 @@ def resolve_protocol(ref: str | None) -> dict | None:
     if not ref:
         return None
     ref = str(ref).strip().strip('"')
+    m = re.search(r"\b(d[0-9a-f]{12})\b", ref) or re.search(r"\b(NCT\d{8})\b", ref, re.I)
+    if m and m.group(1) != ref:  # e.g. "95. PALTAN ... (id d1ca625afca21, NCT02907918)" copied from a tool result
+        return resolve_protocol(m.group(1))
     if re.fullmatch(r"d[0-9a-f]{12}", ref):
         return metadb.q1("SELECT id, filename, title, nct_id FROM documents WHERE id=?", (ref,))
     if ref.lower().startswith("protocol:"):
