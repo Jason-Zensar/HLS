@@ -1,0 +1,5 @@
+# Windows scripts must keep CRLF line endings
+*.bat text eol=crlf
+*.pdf binary
+*.mp4 binary
+*.pptx binary

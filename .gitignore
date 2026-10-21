@@ -1,0 +1,10 @@
+.venv/
+node_modules/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+
+
+# Runtime data (database, stored PDFs, checkpoints, logs) - created on first start
+data/
